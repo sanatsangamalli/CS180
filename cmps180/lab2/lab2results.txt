@@ -1,0 +1,58 @@
+query1:
+ authorid |     authorname
+----------+---------------------
+     2439 | Zachery Tocci
+     2789 | Towanda Chastain
+     4017 | Pura Whitener
+     9164 | Odell Kiely
+     1561 | Monica Collar
+     4444 | John Smith
+     5555 | Hank Souders
+     3333 | Hank Souders
+      643 | Elizabeth Conrad
+     3719 | Denny Schepis
+     2192 | Darin Blanca
+     1111 | Charlotte Bronte
+     5068 | Carlotta Carrington
+     2222 | Aurelio Beller
+(14 rows)
+
+query2:
+ quantity | orderdate
+----------+------------
+        6 | 2006-03-04
+        6 | 2006-03-04
+       10 | 2006-08-05
+        2 | 2007-10-18
+        6 | 2008-03-15
+        4 | 2008-04-10
+        4 | 2011-05-19
+        4 | 2012-01-15
+        4 | 2012-12-19
+        9 | 2013-05-23
+        6 | 2014-04-11
+        2 | 2014-06-07
+        1 | 2017-10-03
+(13 rows)
+
+query3:
+ authorname   | publishername
+----------------+---------------
+ Aurelio Beller | Difity Ltd.
+ Hank Souders   | Difity Ltd.
+(2 rows)
+
+ reviewerid | bookid
+------------+--------
+       2222 | rrrrrr
+       3333 | dddddd
+       3333 | rrrrrr
+       4444 | dddddd
+(4 rows)
+
+query5:
+ memberid |  joindate
+----------+------------
+     2222 | 2018-06-05
+     3333 | 2018-07-05
+(2 rows)

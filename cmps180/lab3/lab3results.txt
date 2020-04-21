@@ -1,0 +1,30 @@
+createviews.sql: 
+2.6.1
+greatpublishers
+ publisherid | numreviewedpublished
+-------------+----------------------
+       31725 |                    2
+(2 rows)
+
+badbooktotals
+ bookid | totalordered | badquantitysum
+--------+--------------+----------------
+ ydbymx |           22 |             21
+ mfasyc |            5 |             10
+ paudhc |           27 |              5
+ jgzhwq |           19 |              9
+ cekpqu |           13 |              3
+ rrrrrr |          100 |             99
+(6 rows)
+
+2.6.2
+queryviews run 1
+ publisherid | numreviewedpublished | numbad
+-------------+----------------------+--------
+       31725 |                    2 |      1
+(2 rows)
+
+queryviews run 2
+ publisherid | numreviewedpublished | numbad
+-------------+----------------------+--------
+(0 rows)
